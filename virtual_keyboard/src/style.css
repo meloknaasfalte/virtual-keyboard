@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #FF8E00;
+}
+
+.container .textarea {
+  width: 700px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  padding: 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: #FFDAB9;
+}
+
+.wrapper .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.wrapper .row .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: #FFFACD;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.wrapper .row .button:hover {
+  background-color: rgba(255, 142, 0, 0.8);
+}
+
+.wrapper .row .button_click {
+  background-color: rgba(255, 142, 0, 0.5);
+  border-radius: 25px;
+}
+
+.wrapper .row .number {
+  position: relative;
+  font-size: 12px;
+}
+
+.wrapper .row .number_shift {
+  position: absolute;
+  top: 3px;
+  left: 8px;
+}
+
+.wrapper .row .backspace {
+  width: 100px;
+}
+
+.wrapper .row .tab {
+  width: 100px;
+}
+
+.wrapper .row .capslock {
+  width: 75px;
+}
+
+.wrapper .row .enter {
+  width: 75px;
+}
+
+.wrapper .row .shift {
+  width: 105px;
+}
+
+.wrapper .row .space {
+  width: 385px;
+}
+
+.wrapper .row .cmnd {
+  width: 60px;
+}
+
+.wrapper .row .optn:last-child {
+  width: 45px;
+}
+/*# sourceMappingURL=style.css.map */
